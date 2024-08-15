@@ -1,0 +1,156 @@
+body{
+    background-color: #F6F6F6;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.container{
+    font-family: poppins;
+    height: 728px;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.content_container {
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.bold_name{
+    display: flex;
+    font-size: 141px;
+    font: bold;
+}
+
+.head{
+    display: flex;
+    color: #F6F6F6;
+    font-weight: bold;
+    font-size: 54px;
+    padding-left: 2%;
+}
+
+.yellow{
+    color: #FFB84C;
+    padding: 0%;
+}
+ 
+.bold_slogan{
+    display: flex;
+    font-size: 37px;
+}
+
+.one{
+    height: 90%;
+}
+
+.team{
+    display: flex;
+    justify-content: center;
+    background-color: #2B2730;
+    height: fit-content;
+}
+
+.flex{
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.row_one{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    color: #FFB84C;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2%;
+    width: 60%;
+}
+
+.product {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.product img {
+    max-width: 300px; 
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px; 
+}
+
+.row_two{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.row_three{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    color: #F6F6F6;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.ind{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    color: #F6F6F6;
+    font-size: 20px;
+    width: 70%;
+}
+
+.ind .yellow{
+    font-size: 60px;
+}
+
+.cesid{
+    width: 30%;
+}
+
+.sifarish{
+    width: 30%;
+}
+
+.emekdash{
+    width: 30%;
+}
+
+.elaqe{
+    display: flex;
+    align-items: center;
+}
+
+.dip{
+    margin-right: 20px;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
