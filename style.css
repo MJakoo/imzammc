@@ -1,4 +1,40 @@
-body{
+html {
+    scroll-behavior: smooth;
+  }
+
+a{
+    color: #2B2730;
+    text-decoration: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Optional: Adds slight upward movement */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.head, .row_one, .row_two, .row_three {
+    opacity: 0; /* Start with opacity 0 */
+    transform: translateY(20px); /* Optional: Positioned slightly off */
+    transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+}
+
+/* Animation triggered when the element comes into view */
+.head.scroll-visible, 
+.row_one.scroll-visible, 
+.row_two.scroll-visible, 
+.row_three.scroll-visible {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Back to original position */
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+  
+  body{
     background-color: #F6F6F6;
     margin: 0;
 }
@@ -32,6 +68,8 @@ p{
     display: flex;
     font-size: 141px;
     font: bold;
+    opacity: 1;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 .head{
@@ -50,11 +88,15 @@ p{
 .bold_slogan{
     display: flex;
     font-size: 37px;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out 1s forwards;
+
 }
 
 .one{
     height: 90%;
 }
+
 
 .team{
     display: flex;
@@ -150,7 +192,48 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-bottom: 200px;
 }
 
+.emekdashlar{
+    width: 40%;
+}
 
+.emekdashlar .text{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
 
+.emekdashlar .emek_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B2730;
+    color: #F6F6F6;
+    width: 40%;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.emek_img img{
+    height: 150px;
+    width: 150px;
+}
+
+.content{
+    display: flex;
+    /* margin-bottom: 500px; */
+
+}
+
+.e{
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+    
+}
+
+.e-1{
+    margin: 50px 0;
+}

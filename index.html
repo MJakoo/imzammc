@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="script.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -19,9 +20,9 @@
         <div class="navbar logo">
           <img src="" alt="Logo" />
         </div>
-        <div class="navbar index1">Bizim Haqda</div>
-        <div class="navbar index2">Emekdashligimiz</div>
-        <div class="navbar index3">Elaqe Saxlamag</div>
+        <a href="#section1" class="navbar index1">Bizim Haqda</a>
+        <a href="#section2" class="navbar index2">Emekdashligimiz</a>
+        <a href="#section3" class="navbar index3">Elaqe Saxlamag</a>
       </div>
       <div class="content_container one">
         <div class="bold_name">
@@ -34,7 +35,7 @@
           &nbspatag!
         </div>
       </div>
-      <div class="container team">
+      <div id="section1" class="container team">
         <div class="flex">
           <div class="head">
             <div class="head yellow">Bizim</div>
@@ -90,16 +91,32 @@
           </div>
         </div>
       </div>
-      <div class="content_container two">
+      <div id="section2" class="content_container two">
         <div class="emekdashlar">
           <div class="text">Emekdashlarimiz</div>
           <div class="emek_button">Bize Qoshulun!</div>
         </div>
         <div class="content">
-          <div class="e1">Vergiler</div>
-          <div class="e2">Metropoliten</div>
-          <div class="e3">Norm MMC</div>
-          <div class="e4">+1 hansisa</div>
+          <div class="e">
+            <div class="e-1">
+              <div class="emek_img"><img src="/img/vergiler.png" alt="" /></div>
+              <div class="emek_ad">Vergiler</div>
+            </div>
+            <div class="e-2">
+              <div class="emek_img"><img src="/img/metro.png" alt="" /></div>
+              <div class="emek_ad">Metropoliten</div>
+            </div>
+          </div>
+          <div class="e">
+            <div class="e-1">
+              <div class="emek_img"><img src="/img/norm.png" alt="" /></div>
+              <div class="emek_ad">Norm MMC</div>
+            </div>
+            <div class="e-2">
+              <div class="emek_img"><img src="" alt="" /></div>
+              <div class="emek_ad">+1 hansisa</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
