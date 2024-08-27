@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="az">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script src="script.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-
     <title>Imza MMC</title>
   </head>
   <body>
     <div class="container">
       <div class="navbar">
-        <div class="navbar logo">
-          <img src="" alt="Logo" />
+        <div class="navbar_in">
+          <div class="navbar logo">
+            <img src="" alt="Logo" />
+          </div>
+          <a href="#section1" class="navbar index">Bizim Haqda</a>
+          <a href="#section2" class="navbar index">Emekdashligimiz</a>
+          <a href="#section3" class="navbar index">Elaqe Saxlamag</a>
         </div>
-        <a href="#section1" class="navbar index1">Bizim Haqda</a>
-        <a href="#section2" class="navbar index2">Emekdashligimiz</a>
-        <a href="#section3" class="navbar index3">Elaqe Saxlamag</a>
       </div>
       <div class="content_container one">
         <div class="bold_name">
@@ -43,27 +47,46 @@
           </div>
           <div class="row_one">
             <div class="info">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              İmza Tekstil MMC - müasir standartlara cavab verən, İşçi
+              geyimlərinin istehsalı, işçi ayaqqabılarının və fərdi mühafizə
+              vasitələrinin (FMV) satışı ilə məşğul olan şirkətdir. İmza Tekstil
+              MMC fəaliyyətinə 2017-də başlamış, uğurla fəaliyyət göstərən və
+              dinamik inkişaf edən müəssisədir. Fəaliyyətimiz, beynəlxalq
+              standartlar, Keyfiyyətin Təmin olunması, Ətraf Mühitin və
+              Ekologiyanın qorunması, Əməyin Mühafizəsi və Texniki Təhlükəsizlik
+              İdarəetmə Sisteminin tələblərinə uyğun olaraq qurulub.
             </div>
             <div class="product">
-              <img src="/img/image.png" alt="İşçi Pencəyi" />
+              <img src="/img/forma/forma9.jpg" alt="İşçi Pencəyi" />
             </div>
           </div>
-          <div class="row_two">
-            <div class="product">
-              <img src="/img/image.png" alt="Üç Düymə Köynək" />
-            </div>
-            <div class="product">
-              <img src="/img/image.png" alt="İşçi Kostyumu" />
+          <div class="row_two swiper">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="/img/forma/forma2.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/img/forma/forma3.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/img/forma/forma4.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/img/forma/forma5.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/img/forma/forma8.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/img/forma/forma6.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/img/forma/forma7.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
           </div>
           <div class="row_three">
@@ -81,44 +104,105 @@
                 Emekdash
               </div>
             </div>
-            <div class="elaqe">
-              <div class="dip">
-                <p>Elaqe</p>
-                Saxlamaq
+            <a href="#section3">
+              <div class="elaqe">
+                <div class="dip">
+                  <p>Elaqe</p>
+                  Saxlamaq
+                </div>
+                <img src="/img/right-arrow-svgrepo-com.svg" alt="" />
               </div>
-              <img src="/img/right-arrow-svgrepo-com.svg" alt="" />
-            </div>
+            </a>
           </div>
         </div>
       </div>
       <div id="section2" class="content_container two">
         <div class="emekdashlar">
           <div class="text">Emekdashlarimiz</div>
-          <div class="emek_button">Bize Qoshulun!</div>
         </div>
         <div class="content">
-          <div class="e">
-            <div class="e-1">
-              <div class="emek_img"><img src="/img/vergiler.png" alt="" /></div>
-              <div class="emek_ad">Vergiler</div>
+          <div class="grid">
+            <div class="emek_img">
+              <img src="/img/vergi.jpg" alt="" />
             </div>
-            <div class="e-2">
-              <div class="emek_img"><img src="/img/metro.png" alt="" /></div>
-              <div class="emek_ad">Metropoliten</div>
+            <div class="emek_ad">
+              Azərbaycan Respublikası İqtisadiyyat Nazirliyi yanında Dövlət
+              Vergi Xidməti
             </div>
           </div>
-          <div class="e">
-            <div class="e-1">
-              <div class="emek_img"><img src="/img/norm.png" alt="" /></div>
-              <div class="emek_ad">Norm MMC</div>
+          <div class="grid">
+            <div class="emek_img">
+              <img src="/img/metro_forma.jpg" alt="" />
             </div>
-            <div class="e-2">
-              <div class="emek_img"><img src="" alt="" /></div>
-              <div class="emek_ad">+1 hansisa</div>
+            <div class="emek_ad">"Bakı Metropoliteni" QSC</div>
+          </div>
+          <div class="grid">
+            <div class="emek_img"><img src="/img/norm_bg.jpeg" alt="" /></div>
+            <div class="emek_ad">"Norm" ASC</div>
+          </div>
+          <div class="grid">
+            <div class="emek_img"><img src="/img/arkoz_bg.jpg" alt="" /></div>
+            <div class="emek_ad">"Arkoz Qazax Sement Zavodu" MMC</div>
+          </div>
+          <div class="grid">
+            <div class="emek_img">
+              <img src="/img/reabilitasiya.jpg" alt="" />
+            </div>
+            <div class="emek_ad">
+              Protez-Ortopedik İstehsalat və Reabilitasiya Mərkəzi
+            </div>
+          </div>
+          <div class="grid">
+            <div class="emek_img"><img src="/img/unibank.jpeg" alt="" /></div>
+            <div class="emek_ad">"Unibank</div>
+          </div>
+        </div>
+      </div>
+      <div id="section3" class="content_container three">
+        <div class="container">
+          <div class="text">
+            Bizimle
+            <div class="yellow">Elaqe</div>
+            Saxlayin!
+          </div>
+          <div class="info">
+            <div class="unvan">
+              <img src="/img/location-pin-alt-1-svgrepo-com.svg" alt="Ünvan" />:
+              AZ1102, Bakı Şəhəri Nəsimi Rayonu, Alatava 2
+            </div>
+            <div class="telefon">
+              <img src="/img/telephone-svgrepo-com.svg" alt="Telefon" />
+              +994 50 863 6818 / +994 12 431 12 86
+            </div>
+            <div class="email">
+              <img src="/img/mail-pencil-svgrepo-com.svg" alt="E-poçt" />:
+              imzatekstil2021@gmail.com
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <img src="" alt="logo" />
+        <div class="rights">All rights reserved © 2010-2024</div>
+        <div class="contacts">
+          <div class="info">
+            <div class="unvan">
+              <img src="/img/location-pin-alt-1-svgrepo-com.svg" alt="Ünvan" />
+              AZ1102, Bakı Şəhəri Nəsimi Rayonu, Alatava 2
+            </div>
+            <div class="telefon">
+              <img src="/img/telephone-svgrepo-com.svg" alt="Telefon" />
+              +994 50 863 6818 / +994 12 431 12 86
+            </div>
+            <div class="email">
+              <img src="/img/mail-pencil-svgrepo-com.svg" alt="E-poçt" />
+              imzatekstil2021@gmail.com
             </div>
           </div>
         </div>
       </div>
     </div>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
 </html>
